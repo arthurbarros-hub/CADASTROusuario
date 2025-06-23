@@ -25,8 +25,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-
-        // Inicializa TextViews e Button
+        
         detailTitle = findViewById(R.id.detail_title);
         detailName = findViewById(R.id.detail_name);
         detailEmail = findViewById(R.id.detail_email);
