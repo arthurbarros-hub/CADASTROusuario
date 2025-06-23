@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações do Contato"
+        android:textSize="28sp"
+        android:textColor="@color/frontend"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/detail_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalhes do contato aparecerão aqui."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="8dp"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:backgroundTint="@color/Nvctt"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="30dp"
+        android:textSize="18sp"
+        android:onClick="goBack"/>
+
+</LinearLayout>

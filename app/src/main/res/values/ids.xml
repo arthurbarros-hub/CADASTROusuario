@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edit_text_name" type="id" />
+    <item name="edit_text_email" type="id" />
+    <item name="edit_text_password" type="id" />
+    <item name="edit_text_instagram" type="id" />
+    <item name="button_cadastrar" type="id" />
+    <item name="button_voltar_cadastro" type="id" />
+</resources>
